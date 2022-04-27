@@ -6,7 +6,9 @@ class Home {
     }
 
     productSelect() {
-        cy.get(el.id).click();
+        cy.get(el.locator)
+            .first()
+            .click();
     }
 }
 
