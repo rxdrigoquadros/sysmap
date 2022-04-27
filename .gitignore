@@ -1,0 +1,5 @@
+cypress/integration/examples
+cypress/videos/
+cypress/screenshots/
+debug.log
+node_modules
