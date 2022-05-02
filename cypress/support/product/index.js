@@ -5,7 +5,9 @@ class Product {
     buy() {
         cy.server();
         cy.route('POST', '**/index.php?rand*').as('postCart');
+        cy.wait(1000)
         cy.get(el.locator)
+            .click()
             .click();
     }
 
